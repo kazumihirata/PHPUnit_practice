@@ -1,7 +1,7 @@
 # PHPUnit_practice
 The [PHPUnit](https://phpunit.de/) practice repogitory for beginner.
 
-# Environment
+## Environment
 
 ```
 $ php --version
@@ -20,7 +20,18 @@ Alias
 $ alias phpunit="./vendor/phpunit/phpunit/phpunit"
 ```
 
-Show informaton 
+Show some informaton 
 ```
 $ phpunit --help
 ```
+
+## Usage
+
+```
+$ phpunit
+```
+
+## Config file
+
+[xml設定ファイル](https://phpunit.readthedocs.io/ja/latest/configuration.html)
+
