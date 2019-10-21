@@ -14,14 +14,12 @@ $ ./phpunit --version
 PHPUnit 7.5.16
 ```
 
-Show informaton 
-```
-$ ./vendor/phpunit/phpunit/phpunit
-```
-
 Alias
 ```
 $ alias phpunit="./vendor/phpunit/phpunit/phpunit"
 ```
 
-
+Show informaton 
+```
+$ phpunit --help
+```
