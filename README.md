@@ -1,1 +1,27 @@
 # PHPUnit_practice
+The [PHPUnit](https://phpunit.de/) practice repogitory for beginner.
+
+# Environment
+
+```
+$ php --version
+PHP 7.1.29
+$ composer --version
+Composer version 1.5.5
+
+$ composer require --dev phpunit/phpunit
+$ ./phpunit --version
+PHPUnit 7.5.16
+```
+
+Show informaton 
+```
+$ ./vendor/phpunit/phpunit/phpunit
+```
+
+Alias
+```
+$ alias phpunit="./vendor/phpunit/phpunit/phpunit"
+```
+
+
