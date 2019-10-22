@@ -13,6 +13,25 @@ class User
     public $lastName;
 
     /**
+     * @var string $email
+     */
+    public $email;
+
+    /**
+     * @var Mailer class
+     */
+    protected $mailer;
+
+
+    /**
+     * @param Mailer $mailer
+     */
+    public function setMailer(Mailer $mailer)
+    {
+        $this->mailer = $mailer;
+    }
+
+    /**
      * @return string FullName
      */
     public function getFullName()
@@ -20,5 +39,15 @@ class User
         return trim($this->firstName . ' ' . $this->lastName);
     }
 
-
+    /**
+     * @param string $message
+     * @return bool
+     *
+     * Mockをつかいたい。
+     */
+    public function notify($message)
+    {
+        return $this->mailer->sendMessage($this->email, $message);
+//        return true;
+    }
 }
