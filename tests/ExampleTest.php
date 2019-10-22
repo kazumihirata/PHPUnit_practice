@@ -1,12 +1,15 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use Mockery\Adapter\Phpunit\MockeryTestCase;
 
-class ExampleTest extends TestCase
-{
 
-    public function testAddingTwoPlusTwoResultsInFour()
-    {
-        $this->assertEquals(4, 2 + 2);
-    }
-}
+// To prevent "No tests found in this class, I comment out these code."
+
+//class ExampleTest extends MockeryTestCase
+//{
+//    public function tearDown(): void
+//    {
+//        Mockery::close();
+//    }
+//}
