@@ -1,5 +1,5 @@
 # PHPUnit_practice
-The [PHPUnit](https://phpunit.de/) practice repogitory for beginner.
+It's a repository to learn how to use [PHPUnit](https://phpunit.de/).
 
 ## Environment
 
